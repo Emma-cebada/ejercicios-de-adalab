@@ -1,0 +1,9 @@
+.caja {
+  background-image: url("https://www.pinterest.es/pin/595249275721608426/");
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px;
+  box-sizing: border-box;
+  margin: auto;
+}
