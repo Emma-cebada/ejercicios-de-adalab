@@ -13,7 +13,7 @@ body {
 }
 
 .user-info {
-  width: 300px;
+  /*width: 300px; pq esta propiedad queda anulada por el display, así que la dejo en comentario para que el css no de error, pero saber que si se quita el display que tiene, tendría que estar.*/
   padding: 8px 16px;
   margin: 16px;
   border-left: 3px solid #f93af9;
