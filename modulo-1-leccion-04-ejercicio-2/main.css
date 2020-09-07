@@ -1,0 +1,14 @@
+.imagen {
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
