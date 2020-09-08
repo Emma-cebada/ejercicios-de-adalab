@@ -1,4 +1,7 @@
 .list {
   display: inline;
   word-spacing: 12px;
+  position: relative;
+  top: 0;
+  left: 200px;
 }
