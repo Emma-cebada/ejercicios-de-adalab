@@ -1,0 +1,17 @@
+.news {
+  margin: 2em auto 0;
+  width: 400px;
+  border: 1px solid red;
+  padding: 1em;
+}
+.news__image {
+  width: 100%;
+}
+.news__content {
+  border: 1px dashed pink;
+  max-height: 222px;
+  padding: 0 0.5em;
+  overflow-y: auto;
+}
+/* Si duplico el párrafo, el contenedor se hace más grande para que entre todo sin problemas.
+Si volvemos a duplicar el párrafo, se prduce un overflow verticarl y nos sale la barra para que podamos usar el scroll. */
