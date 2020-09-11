@@ -1,3 +1,73 @@
-body {
-  background-color: red;
+/* General */
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+.body {
+  font-size: font-family: 'Montserrat', sans-serif;
+}
+
+/* Main */
+.main {
+  /* background-color: red; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle {
+  font-weight: bold;
+  text-align: center;
+  color: #CC212A;
+  }
+
+/* Footer */
+.foot {
+    border-top: 2px #CC212A solid;
+  background-color: blue;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circularR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #CC212A;
+    font-weight: bold;
+    border-radius: 50%;
+    transform: translate(0, -40px);
+    color: white;
+
+}
+
+.copy{
+  position: relative;
+  top: -20px;
+}
+
+@media all and (min-width: 768px) {
+  .foot{
+    padding: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .circularR{
+    transform: translate(0, 0);
+  }
+  .copy{
+    top: 0;
+  }
 }
