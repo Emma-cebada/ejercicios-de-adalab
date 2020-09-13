@@ -24,12 +24,17 @@
   font-weight: bold;
   text-align: center;
   color: #CC212A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
   }
 
 /* Footer */
+
 .foot {
+  /* background-color: blue; */
     border-top: 2px #CC212A solid;
-  background-color: blue;
   position: fixed;
   bottom: 0px;
   width: 100%;
